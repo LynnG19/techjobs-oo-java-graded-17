@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +58,8 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TestTaskTwo">
-    <configuration name="TestTaskTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TestTaskThree.testHashCodeMethod">
+    <configuration name="TestTaskThree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -77,7 +72,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskTwo&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskThree&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -88,7 +83,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskTwo.testCoreCompetencyHasIdGetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTaskThree.testEqualsMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,7 +96,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskTwo.testCoreCompetencyHasIdGetter&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskThree.testEqualsMethod&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -112,7 +107,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskTwo.testPositionTypeEqualsMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTaskThree.testHashCodeMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +120,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskTwo.testPositionTypeEqualsMethod&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskThree.testHashCodeMethod&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -136,7 +131,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskTwo.testPositionTypeHashCodeMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTaskThree.testLocationAccessors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -149,7 +144,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskTwo.testPositionTypeHashCodeMethod&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskThree.testLocationAccessors&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,7 +155,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskTwo.testPositionTypeToStringMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTaskThree.testPositionTypeAccessors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -173,7 +168,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskTwo.testPositionTypeToStringMethod&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskThree.testPositionTypeAccessors&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestTaskTwo" />
-        <item itemvalue="Gradle.TestTaskTwo.testPositionTypeEqualsMethod" />
-        <item itemvalue="Gradle.TestTaskTwo.testPositionTypeHashCodeMethod" />
-        <item itemvalue="Gradle.TestTaskTwo.testPositionTypeToStringMethod" />
-        <item itemvalue="Gradle.TestTaskTwo.testCoreCompetencyHasIdGetter" />
+        <item itemvalue="Gradle.TestTaskThree.testHashCodeMethod" />
+        <item itemvalue="Gradle.TestTaskThree.testEqualsMethod" />
+        <item itemvalue="Gradle.TestTaskThree" />
+        <item itemvalue="Gradle.TestTaskThree.testPositionTypeAccessors" />
+        <item itemvalue="Gradle.TestTaskThree.testLocationAccessors" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +198,19 @@
       <option name="presentableId" value="Default" />
       <updated>1685977091317</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st">
+      <option name="closed" value="true" />
+      <created>1698862246080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698862246081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st" />
   </component>
 </project>
