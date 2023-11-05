@@ -2,6 +2,8 @@ package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
 
+import static java.lang.System.lineSeparator;
+
 public class Job {
 
     private int id;
@@ -96,4 +98,17 @@ public class Job {
         this.coreCompetency = coreCompetency;
     }
 
+
+    @Override
+    public  String toString() {
+        return lineSeparator() +
+                "ID: " + id +
+                lineSeparator() + "Employer: " + employer.getValue() +
+                lineSeparator() + "Location: " + location.getValue() +
+                lineSeparator() + "PositionType: " + positionType.getValue() +
+                lineSeparator() + "CoreCompetency: " + coreCompetency.getValue() +
+                lineSeparator();
+
+
+    }
 }
