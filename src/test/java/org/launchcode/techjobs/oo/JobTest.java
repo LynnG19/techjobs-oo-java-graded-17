@@ -52,7 +52,6 @@ public class JobTest {
         String expected = String.valueOf(testJob.toString().charAt(0));
         String actual = System.lineSeparator();
         assertEquals(expected, actual);
-
         String expected2 = String.valueOf(testJob.toString().charAt(testJob.toString().length()-1));
         assertEquals(expected2, actual);
 
@@ -60,12 +59,19 @@ public class JobTest {
 
     }
 
+        @Test
+        public void testToStringContainsCorrectLabelsAndData (){
+            Job testedJob = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+            assertEquals(lineSeparator() + "ID: " + testedJob.getId() + lineSeparator() + "Name: " + testedJob.getName() + lineSeparator() + "Employer: " + testedJob.getEmployer() + lineSeparator() + "Location: " + testedJob.getLocation() + lineSeparator() + "PositionType: " + testedJob.getPositionType() + lineSeparator() + "CoreCompetency: " + testedJob.getCoreCompetency() + lineSeparator(), testedJob.toString());
 
-        //testToStringContainsCorrectLabelsAndData
+    }
 
 
-
-        //testToStringHandlesEmptyField
+        @Test
+        public void testToStringHandlesEmptyField () {
+            Job againTestJob = new Job("", new Employer(""), new Location(""), new PositionType(""), new CoreCompetency(""));
+            assertEquals(lineSeparator() + "ID: " + againTestJob.getId() + lineSeparator() + "Name: " + "Data not available" + lineSeparator() + "Employer: " + "Data not available" + lineSeparator() + "Location: " + "Data not available" + lineSeparator() + "PositionType: " + "Data not available" + lineSeparator() + "CoreCompetency: " + "Data not available" + lineSeparator(), againTestJob.toString());
+        }
 
 
 
