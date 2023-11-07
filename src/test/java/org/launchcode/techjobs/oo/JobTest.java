@@ -62,7 +62,7 @@ public class JobTest {
         @Test
         public void testToStringContainsCorrectLabelsAndData (){
             Job testedJob = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-            assertEquals(lineSeparator() + "ID: " + testedJob.getId() + lineSeparator() + "Name: " + testedJob.getName() + lineSeparator() + "Employer: " + testedJob.getEmployer() + lineSeparator() + "Location: " + testedJob.getLocation() + lineSeparator() + "PositionType: " + testedJob.getPositionType() + lineSeparator() + "CoreCompetency: " + testedJob.getCoreCompetency() + lineSeparator(), testedJob.toString());
+            assertEquals(lineSeparator() + "ID: " + testedJob.getId() + lineSeparator() + "Name: " + testedJob.getName() + lineSeparator() + "Employer: " + testedJob.getEmployer() + lineSeparator() + "Location: " + testedJob.getLocation() + lineSeparator() + "Position Type: " + testedJob.getPositionType() + lineSeparator() + "Core Competency: " + testedJob.getCoreCompetency() + lineSeparator(), testedJob.toString());
 
     }
 
@@ -70,7 +70,7 @@ public class JobTest {
         @Test
         public void testToStringHandlesEmptyField () {
             Job againTestJob = new Job("", new Employer(""), new Location(""), new PositionType(""), new CoreCompetency(""));
-            assertEquals(lineSeparator() + "ID: " + againTestJob.getId() + lineSeparator() + "Name: " + "Data not available" + lineSeparator() + "Employer: " + "Data not available" + lineSeparator() + "Location: " + "Data not available" + lineSeparator() + "PositionType: " + "Data not available" + lineSeparator() + "CoreCompetency: " + "Data not available" + lineSeparator(), againTestJob.toString());
+            assertEquals(lineSeparator() + "ID: " + againTestJob.getId() + lineSeparator() + "Name: " + "Data not available" + lineSeparator() + "Employer: " + "Data not available" + lineSeparator() + "Location: " + "Data not available" + lineSeparator() + "Position Type: " + "Data not available" + lineSeparator() + "Core Competency: " + "Data not available" + lineSeparator(), againTestJob.toString());
         }
 
 
